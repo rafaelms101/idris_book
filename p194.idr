@@ -15,7 +15,5 @@ Eq Shape where
   (==) _ _ = False
 
 --2
-
-
 Ord Shape where
   compare x y = compare (area x) (area y)
